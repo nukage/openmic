@@ -1,0 +1,496 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 10:24:00
+* VERSION: 1.3.24
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.0.32                                |7.2.21
+OS__________________: Linux                                 |Darwin
+CREATED_____________: 2020-01-22 22:21:17
+WP VERSION__________: 5.3.2
+DUP VERSION_________: 1.3.24
+DB__________________: 5.6.41
+DB TABLES___________: 24
+DB ROWS_____________: 3,421
+DB FILE SIZE________: 3.13MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.21 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/Users/tmyruski/Sites/openmic"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://openmic/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20200122_electronicopenmic_94e9cc283f6d1ecc7733_20200122222117_archive.zip"
+SIZE________________: 124.14MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' backed-up to .htaccess-200122222400-5e28cb80bbf4d-duplicator.bak
+- PASS: Existing Apache '.htaccess' was removed
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/Users/tmyruski/Sites/openmic/20200122_electronicopenmic_94e9cc283f6d1ecc7733_20200122222117_archive.zip' -d '/Users/tmyruski/Sites/openmic' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 10:24:33 - RUNTIME: 32.9840 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 10:24:56
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.26 -- Build Server: 5.6.41
+FILE SIZE:	dup-database__94e9cc2-22222117.sql (3.04MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Users/tmyruski/Sites/openmic/dup-installer/dup-installer-data__94e9cc2-22222117.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	23
+RENAMED TABLES:	0
+QUERIES RAN:	219
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_db7_forms: (90)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (323)
+wp_participants_database: (0)
+wp_participants_database_fields: (19)
+wp_participants_database_groups: (4)
+wp_postmeta: (2572)
+wp_posts: (177)
+wp_revslider_css: (109)
+wp_revslider_layer_animations: (0)
+wp_revslider_navigations: (0)
+wp_revslider_sliders: (0)
+wp_revslider_slides: (0)
+wp_revslider_static_slides: (0)
+wp_sm_sessions: (0)
+wp_term_relationships: (22)
+wp_term_taxonomy: (6)
+wp_termmeta: (0)
+wp_terms: (6)
+wp_usermeta: (26)
+wp_users: (1)
+Removed '65' cache/transient rows
+
+INSERT DATA RUNTIME: 1.1110 sec.
+STEP-2 COMPLETE @ 10:24:57 - RUNTIME: 1.1839 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 10:25:06
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Electronic Open Mic"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home4/nukage/public_html/openmic/"
+path_new______________: "/Users/tmyruski/Sites/openmic/"
+siteurl_______________: "http://openmic:8888"
+url_old_______________: "https://openmic.iheartproducers.com"
+url_new_______________: "http://openmic:8888"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "openmic"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/nukage/public_html/openmic/" ==============> "/Users/tmyruski/Sites/openmic/"
+	SEARCH  2:"\/home4\/nukage\/public_html\/openmic\/" =========> "\/Users\/tmyruski\/Sites\/openmic\/"
+	SEARCH  3:"%2Fhome4%2Fnukage%2Fpublic_html%2Fopenmic%2F" ====> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic%2F"
+	SEARCH  4:"\home4\nukage\public_html\openmic" ===============> "/Users/tmyruski/Sites/openmic"
+	SEARCH  5:"\\home4\\nukage\\public_html\\openmic" ===========> "\/Users\/tmyruski\/Sites\/openmic"
+	SEARCH  6:"%5Chome4%5Cnukage%5Cpublic_html%5Copenmic" =======> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic"
+	SEARCH  7:"//openmic.iheartproducers.com" ===================> "//openmic:8888"
+	SEARCH  8:"\/\/openmic.iheartproducers.com" =================> "\/\/openmic:8888"
+	SEARCH  9:"%2F%2Fopenmic.iheartproducers.com" ===============> "%2F%2Fopenmic%3A8888"
+	SEARCH 10:"https://openmic:8888" ============================> "http://openmic:8888"
+	SEARCH 11:"https:\/\/openmic:8888" ==========================> "http:\/\/openmic:8888"
+	SEARCH 12:"https%3A%2F%2Fopenmic%3A8888" ====================> "http%3A%2F%2Fopenmic%3A8888"
+
+EVALUATE TABLE: "wp_db7_forms"____________________________________[ROWS:    90][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/nukage/public_html/openmic/" ==============> "/Users/tmyruski/Sites/openmic/"
+	SEARCH  2:"\/home4\/nukage\/public_html\/openmic\/" =========> "\/Users\/tmyruski\/Sites\/openmic\/"
+	SEARCH  3:"%2Fhome4%2Fnukage%2Fpublic_html%2Fopenmic%2F" ====> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic%2F"
+	SEARCH  4:"\home4\nukage\public_html\openmic" ===============> "/Users/tmyruski/Sites/openmic"
+	SEARCH  5:"\\home4\\nukage\\public_html\\openmic" ===========> "\/Users\/tmyruski\/Sites\/openmic"
+	SEARCH  6:"%5Chome4%5Cnukage%5Cpublic_html%5Copenmic" =======> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic"
+	SEARCH  7:"//openmic.iheartproducers.com" ===================> "//openmic:8888"
+	SEARCH  8:"\/\/openmic.iheartproducers.com" =================> "\/\/openmic:8888"
+	SEARCH  9:"%2F%2Fopenmic.iheartproducers.com" ===============> "%2F%2Fopenmic%3A8888"
+	SEARCH 10:"https://openmic:8888" ============================> "http://openmic:8888"
+	SEARCH 11:"https:\/\/openmic:8888" ==========================> "http:\/\/openmic:8888"
+	SEARCH 12:"https%3A%2F%2Fopenmic%3A8888" ====================> "http%3A%2F%2Fopenmic%3A8888"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   323][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/nukage/public_html/openmic/" ==============> "/Users/tmyruski/Sites/openmic/"
+	SEARCH  2:"\/home4\/nukage\/public_html\/openmic\/" =========> "\/Users\/tmyruski\/Sites\/openmic\/"
+	SEARCH  3:"%2Fhome4%2Fnukage%2Fpublic_html%2Fopenmic%2F" ====> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic%2F"
+	SEARCH  4:"\home4\nukage\public_html\openmic" ===============> "/Users/tmyruski/Sites/openmic"
+	SEARCH  5:"\\home4\\nukage\\public_html\\openmic" ===========> "\/Users\/tmyruski\/Sites\/openmic"
+	SEARCH  6:"%5Chome4%5Cnukage%5Cpublic_html%5Copenmic" =======> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic"
+	SEARCH  7:"//openmic.iheartproducers.com" ===================> "//openmic:8888"
+	SEARCH  8:"\/\/openmic.iheartproducers.com" =================> "\/\/openmic:8888"
+	SEARCH  9:"%2F%2Fopenmic.iheartproducers.com" ===============> "%2F%2Fopenmic%3A8888"
+	SEARCH 10:"https://openmic:8888" ============================> "http://openmic:8888"
+	SEARCH 11:"https:\/\/openmic:8888" ==========================> "http:\/\/openmic:8888"
+	SEARCH 12:"https%3A%2F%2Fopenmic%3A8888" ====================> "http%3A%2F%2Fopenmic%3A8888"
+
+EVALUATE TABLE: "wp_participants_database"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_participants_database_fields"_________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/nukage/public_html/openmic/" ==============> "/Users/tmyruski/Sites/openmic/"
+	SEARCH  2:"\/home4\/nukage\/public_html\/openmic\/" =========> "\/Users\/tmyruski\/Sites\/openmic\/"
+	SEARCH  3:"%2Fhome4%2Fnukage%2Fpublic_html%2Fopenmic%2F" ====> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic%2F"
+	SEARCH  4:"\home4\nukage\public_html\openmic" ===============> "/Users/tmyruski/Sites/openmic"
+	SEARCH  5:"\\home4\\nukage\\public_html\\openmic" ===========> "\/Users\/tmyruski\/Sites\/openmic"
+	SEARCH  6:"%5Chome4%5Cnukage%5Cpublic_html%5Copenmic" =======> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic"
+	SEARCH  7:"//openmic.iheartproducers.com" ===================> "//openmic:8888"
+	SEARCH  8:"\/\/openmic.iheartproducers.com" =================> "\/\/openmic:8888"
+	SEARCH  9:"%2F%2Fopenmic.iheartproducers.com" ===============> "%2F%2Fopenmic%3A8888"
+	SEARCH 10:"https://openmic:8888" ============================> "http://openmic:8888"
+	SEARCH 11:"https:\/\/openmic:8888" ==========================> "http:\/\/openmic:8888"
+	SEARCH 12:"https%3A%2F%2Fopenmic%3A8888" ====================> "http%3A%2F%2Fopenmic%3A8888"
+
+EVALUATE TABLE: "wp_participants_database_groups"_________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/nukage/public_html/openmic/" ==============> "/Users/tmyruski/Sites/openmic/"
+	SEARCH  2:"\/home4\/nukage\/public_html\/openmic\/" =========> "\/Users\/tmyruski\/Sites\/openmic\/"
+	SEARCH  3:"%2Fhome4%2Fnukage%2Fpublic_html%2Fopenmic%2F" ====> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic%2F"
+	SEARCH  4:"\home4\nukage\public_html\openmic" ===============> "/Users/tmyruski/Sites/openmic"
+	SEARCH  5:"\\home4\\nukage\\public_html\\openmic" ===========> "\/Users\/tmyruski\/Sites\/openmic"
+	SEARCH  6:"%5Chome4%5Cnukage%5Cpublic_html%5Copenmic" =======> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic"
+	SEARCH  7:"//openmic.iheartproducers.com" ===================> "//openmic:8888"
+	SEARCH  8:"\/\/openmic.iheartproducers.com" =================> "\/\/openmic:8888"
+	SEARCH  9:"%2F%2Fopenmic.iheartproducers.com" ===============> "%2F%2Fopenmic%3A8888"
+	SEARCH 10:"https://openmic:8888" ============================> "http://openmic:8888"
+	SEARCH 11:"https:\/\/openmic:8888" ==========================> "http:\/\/openmic:8888"
+	SEARCH 12:"https%3A%2F%2Fopenmic%3A8888" ====================> "http%3A%2F%2Fopenmic%3A8888"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  2572][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/nukage/public_html/openmic/" ==============> "/Users/tmyruski/Sites/openmic/"
+	SEARCH  2:"\/home4\/nukage\/public_html\/openmic\/" =========> "\/Users\/tmyruski\/Sites\/openmic\/"
+	SEARCH  3:"%2Fhome4%2Fnukage%2Fpublic_html%2Fopenmic%2F" ====> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic%2F"
+	SEARCH  4:"\home4\nukage\public_html\openmic" ===============> "/Users/tmyruski/Sites/openmic"
+	SEARCH  5:"\\home4\\nukage\\public_html\\openmic" ===========> "\/Users\/tmyruski\/Sites\/openmic"
+	SEARCH  6:"%5Chome4%5Cnukage%5Cpublic_html%5Copenmic" =======> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic"
+	SEARCH  7:"//openmic.iheartproducers.com" ===================> "//openmic:8888"
+	SEARCH  8:"\/\/openmic.iheartproducers.com" =================> "\/\/openmic:8888"
+	SEARCH  9:"%2F%2Fopenmic.iheartproducers.com" ===============> "%2F%2Fopenmic%3A8888"
+	SEARCH 10:"https://openmic:8888" ============================> "http://openmic:8888"
+	SEARCH 11:"https:\/\/openmic:8888" ==========================> "http:\/\/openmic:8888"
+	SEARCH 12:"https%3A%2F%2Fopenmic%3A8888" ====================> "http%3A%2F%2Fopenmic%3A8888"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   177][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/nukage/public_html/openmic/" ==============> "/Users/tmyruski/Sites/openmic/"
+	SEARCH  2:"\/home4\/nukage\/public_html\/openmic\/" =========> "\/Users\/tmyruski\/Sites\/openmic\/"
+	SEARCH  3:"%2Fhome4%2Fnukage%2Fpublic_html%2Fopenmic%2F" ====> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic%2F"
+	SEARCH  4:"\home4\nukage\public_html\openmic" ===============> "/Users/tmyruski/Sites/openmic"
+	SEARCH  5:"\\home4\\nukage\\public_html\\openmic" ===========> "\/Users\/tmyruski\/Sites\/openmic"
+	SEARCH  6:"%5Chome4%5Cnukage%5Cpublic_html%5Copenmic" =======> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic"
+	SEARCH  7:"//openmic.iheartproducers.com" ===================> "//openmic:8888"
+	SEARCH  8:"\/\/openmic.iheartproducers.com" =================> "\/\/openmic:8888"
+	SEARCH  9:"%2F%2Fopenmic.iheartproducers.com" ===============> "%2F%2Fopenmic%3A8888"
+	SEARCH 10:"https://openmic:8888" ============================> "http://openmic:8888"
+	SEARCH 11:"https:\/\/openmic:8888" ==========================> "http:\/\/openmic:8888"
+	SEARCH 12:"https%3A%2F%2Fopenmic%3A8888" ====================> "http%3A%2F%2Fopenmic%3A8888"
+
+EVALUATE TABLE: "wp_revslider_css"________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/nukage/public_html/openmic/" ==============> "/Users/tmyruski/Sites/openmic/"
+	SEARCH  2:"\/home4\/nukage\/public_html\/openmic\/" =========> "\/Users\/tmyruski\/Sites\/openmic\/"
+	SEARCH  3:"%2Fhome4%2Fnukage%2Fpublic_html%2Fopenmic%2F" ====> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic%2F"
+	SEARCH  4:"\home4\nukage\public_html\openmic" ===============> "/Users/tmyruski/Sites/openmic"
+	SEARCH  5:"\\home4\\nukage\\public_html\\openmic" ===========> "\/Users\/tmyruski\/Sites\/openmic"
+	SEARCH  6:"%5Chome4%5Cnukage%5Cpublic_html%5Copenmic" =======> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic"
+	SEARCH  7:"//openmic.iheartproducers.com" ===================> "//openmic:8888"
+	SEARCH  8:"\/\/openmic.iheartproducers.com" =================> "\/\/openmic:8888"
+	SEARCH  9:"%2F%2Fopenmic.iheartproducers.com" ===============> "%2F%2Fopenmic%3A8888"
+	SEARCH 10:"https://openmic:8888" ============================> "http://openmic:8888"
+	SEARCH 11:"https:\/\/openmic:8888" ==========================> "http:\/\/openmic:8888"
+	SEARCH 12:"https%3A%2F%2Fopenmic%3A8888" ====================> "http%3A%2F%2Fopenmic%3A8888"
+
+EVALUATE TABLE: "wp_revslider_layer_animations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_slides"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_static_slides"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_sm_sessions"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/nukage/public_html/openmic/" ==============> "/Users/tmyruski/Sites/openmic/"
+	SEARCH  2:"\/home4\/nukage\/public_html\/openmic\/" =========> "\/Users\/tmyruski\/Sites\/openmic\/"
+	SEARCH  3:"%2Fhome4%2Fnukage%2Fpublic_html%2Fopenmic%2F" ====> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic%2F"
+	SEARCH  4:"\home4\nukage\public_html\openmic" ===============> "/Users/tmyruski/Sites/openmic"
+	SEARCH  5:"\\home4\\nukage\\public_html\\openmic" ===========> "\/Users\/tmyruski\/Sites\/openmic"
+	SEARCH  6:"%5Chome4%5Cnukage%5Cpublic_html%5Copenmic" =======> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic"
+	SEARCH  7:"//openmic.iheartproducers.com" ===================> "//openmic:8888"
+	SEARCH  8:"\/\/openmic.iheartproducers.com" =================> "\/\/openmic:8888"
+	SEARCH  9:"%2F%2Fopenmic.iheartproducers.com" ===============> "%2F%2Fopenmic%3A8888"
+	SEARCH 10:"https://openmic:8888" ============================> "http://openmic:8888"
+	SEARCH 11:"https:\/\/openmic:8888" ==========================> "http:\/\/openmic:8888"
+	SEARCH 12:"https%3A%2F%2Fopenmic%3A8888" ====================> "http%3A%2F%2Fopenmic%3A8888"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/nukage/public_html/openmic/" ==============> "/Users/tmyruski/Sites/openmic/"
+	SEARCH  2:"\/home4\/nukage\/public_html\/openmic\/" =========> "\/Users\/tmyruski\/Sites\/openmic\/"
+	SEARCH  3:"%2Fhome4%2Fnukage%2Fpublic_html%2Fopenmic%2F" ====> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic%2F"
+	SEARCH  4:"\home4\nukage\public_html\openmic" ===============> "/Users/tmyruski/Sites/openmic"
+	SEARCH  5:"\\home4\\nukage\\public_html\\openmic" ===========> "\/Users\/tmyruski\/Sites\/openmic"
+	SEARCH  6:"%5Chome4%5Cnukage%5Cpublic_html%5Copenmic" =======> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic"
+	SEARCH  7:"//openmic.iheartproducers.com" ===================> "//openmic:8888"
+	SEARCH  8:"\/\/openmic.iheartproducers.com" =================> "\/\/openmic:8888"
+	SEARCH  9:"%2F%2Fopenmic.iheartproducers.com" ===============> "%2F%2Fopenmic%3A8888"
+	SEARCH 10:"https://openmic:8888" ============================> "http://openmic:8888"
+	SEARCH 11:"https:\/\/openmic:8888" ==========================> "http:\/\/openmic:8888"
+	SEARCH 12:"https%3A%2F%2Fopenmic%3A8888" ====================> "http%3A%2F%2Fopenmic%3A8888"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/nukage/public_html/openmic/" ==============> "/Users/tmyruski/Sites/openmic/"
+	SEARCH  2:"\/home4\/nukage\/public_html\/openmic\/" =========> "\/Users\/tmyruski\/Sites\/openmic\/"
+	SEARCH  3:"%2Fhome4%2Fnukage%2Fpublic_html%2Fopenmic%2F" ====> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic%2F"
+	SEARCH  4:"\home4\nukage\public_html\openmic" ===============> "/Users/tmyruski/Sites/openmic"
+	SEARCH  5:"\\home4\\nukage\\public_html\\openmic" ===========> "\/Users\/tmyruski\/Sites\/openmic"
+	SEARCH  6:"%5Chome4%5Cnukage%5Cpublic_html%5Copenmic" =======> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic"
+	SEARCH  7:"//openmic.iheartproducers.com" ===================> "//openmic:8888"
+	SEARCH  8:"\/\/openmic.iheartproducers.com" =================> "\/\/openmic:8888"
+	SEARCH  9:"%2F%2Fopenmic.iheartproducers.com" ===============> "%2F%2Fopenmic%3A8888"
+	SEARCH 10:"https://openmic:8888" ============================> "http://openmic:8888"
+	SEARCH 11:"https:\/\/openmic:8888" ==========================> "http:\/\/openmic:8888"
+	SEARCH 12:"https%3A%2F%2Fopenmic%3A8888" ====================> "http%3A%2F%2Fopenmic%3A8888"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/nukage/public_html/openmic/" ==============> "/Users/tmyruski/Sites/openmic/"
+	SEARCH  2:"\/home4\/nukage\/public_html\/openmic\/" =========> "\/Users\/tmyruski\/Sites\/openmic\/"
+	SEARCH  3:"%2Fhome4%2Fnukage%2Fpublic_html%2Fopenmic%2F" ====> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic%2F"
+	SEARCH  4:"\home4\nukage\public_html\openmic" ===============> "/Users/tmyruski/Sites/openmic"
+	SEARCH  5:"\\home4\\nukage\\public_html\\openmic" ===========> "\/Users\/tmyruski\/Sites\/openmic"
+	SEARCH  6:"%5Chome4%5Cnukage%5Cpublic_html%5Copenmic" =======> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic"
+	SEARCH  7:"//openmic.iheartproducers.com" ===================> "//openmic:8888"
+	SEARCH  8:"\/\/openmic.iheartproducers.com" =================> "\/\/openmic:8888"
+	SEARCH  9:"%2F%2Fopenmic.iheartproducers.com" ===============> "%2F%2Fopenmic%3A8888"
+	SEARCH 10:"https://openmic:8888" ============================> "http://openmic:8888"
+	SEARCH 11:"https:\/\/openmic:8888" ==========================> "http:\/\/openmic:8888"
+	SEARCH 12:"https%3A%2F%2Fopenmic%3A8888" ====================> "http%3A%2F%2Fopenmic%3A8888"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/nukage/public_html/openmic/" ==============> "/Users/tmyruski/Sites/openmic/"
+	SEARCH  2:"\/home4\/nukage\/public_html\/openmic\/" =========> "\/Users\/tmyruski\/Sites\/openmic\/"
+	SEARCH  3:"%2Fhome4%2Fnukage%2Fpublic_html%2Fopenmic%2F" ====> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic%2F"
+	SEARCH  4:"\home4\nukage\public_html\openmic" ===============> "/Users/tmyruski/Sites/openmic"
+	SEARCH  5:"\\home4\\nukage\\public_html\\openmic" ===========> "\/Users\/tmyruski\/Sites\/openmic"
+	SEARCH  6:"%5Chome4%5Cnukage%5Cpublic_html%5Copenmic" =======> "%2FUsers%2Ftmyruski%2FSites%2Fopenmic"
+	SEARCH  7:"//openmic.iheartproducers.com" ===================> "//openmic:8888"
+	SEARCH  8:"\/\/openmic.iheartproducers.com" =================> "\/\/openmic:8888"
+	SEARCH  9:"%2F%2Fopenmic.iheartproducers.com" ===============> "%2F%2Fopenmic%3A8888"
+	SEARCH 10:"https://openmic:8888" ============================> "http://openmic:8888"
+	SEARCH 11:"https:\/\/openmic:8888" ==========================> "http:\/\/openmic:8888"
+	SEARCH 12:"https%3A%2F%2Fopenmic%3A8888" ====================> "http%3A%2F%2Fopenmic%3A8888"
+--------------------------------------
+SCANNED:	Tables:24 	|	 Rows:3356 	|	 Cells:17313 
+UPDATED:	Tables:3 	|	 Rows:251 	|	 Cells:346 
+ERRORS:		0 
+RUNTIME:	0.952900 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE WP_HOME "http://openmic:8888"
+	UPDATE WP_SITEURL "http://openmic:8888"
+	UPDATE DB_NAME ""openmic""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+deactivate js_composer/js_composer.php
+deactivate really-simple-ssl/rlrsssl-really-simple-ssl.php
+Plugin(s) listed here are deactivated: js_composer/js_composer.php, really-simple-ssl/rlrsssl-really-simple-ssl.php
+Plugin(s) reactivated after installation: js_composer/js_composer.php, really-simple-ssl/rlrsssl-really-simple-ssl.php
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 10:25:07 - RUNTIME: 1.0812 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Deactivated Plugin:  WPBakery Page Builder
+	SECTIONS: general
+	LONG MSG: This plugin is deactivated automatically, because it requires a reacivation to work properly.  <b>Please reactivate from the WordPress admin panel after logging in.</b> This will re-enable your site's frontend.
+
+-----------------------
+[WARNING] Deactivated Plugin:  Really Simple SSL
+	SECTIONS: general
+	LONG MSG: This plugin has been deactivated since this migration is going from SSL (HTTPS) to Non-SSL (HTTP).  This will allow you to login to your WordPress Admin.   To reactivate the plugin please go to the admin plugin page.
+
+-----------------------
+[NOTICE] wp-config notice
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
