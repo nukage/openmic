@@ -10,7 +10,7 @@
     <section id="openmic-top" class="">
         <div class="openmic-overlay py-40">
             <div class="container mx-auto">
-                <h1 class="font-black oswald text-6xl text-white text-center"><?php _e( 'ELECTRONIC OPEN SHOWCASE', 'openmic' ); ?></h1>
+                <h1 class="font-black oswald text-6xl text-white text-center"><?php _e( 'ELECTRONIC OPEN SHOWCASE!!', 'openmic' ); ?></h1>
                 <h2 class="text-4xl text-green-600 text-center"><?php _e( 'PRESENTED BY IHEARTPRODUCERS, 343 LABS & SCRATCH DJ ACADEMY', 'openmic' ); ?></h2>
                 <div class="my-8 text-center oswald text-xl leading-loose ">
                     <?php echo get_field('event_details') ?>

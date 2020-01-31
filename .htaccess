@@ -18,7 +18,7 @@
 	ExpiresDefault "access plus 6 hours"
 </IfModule>
 <ifModule mod_headers.c>
-Header set X-Endurance-Cache-Level "0"
+Header set X-Endurance-Cache-Level "2"
 </ifModule>
 Options -Indexes 
 
